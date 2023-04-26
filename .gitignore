@@ -1,0 +1,40 @@
+# Directories
+node_modules/
+logs/
+dist/
+coverage/
+tmp/
+temp/
+*.tmp/
+*.log/
+*.pid/
+*.gz/
+*.zip/
+*.tar/
+*.tar.gz/
+*.rar/
+*.tgz/
+*.bak/
+
+# Environment variables
+.env
+.env.*
+*.env
+!example.env
+!*.env.example
+
+# Elasticsearch data
+/data/
+
+# Docker images and containers
+docker-compose.yml
+*.dockerfile
+*.dockerignore
+*.env
+*.tar.gz
+*.tar
+
+# Other generated files
+build/
+.env.local
+.DS_Store
